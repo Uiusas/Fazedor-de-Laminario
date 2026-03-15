@@ -780,7 +780,7 @@ body[data-theme="cyberpunk"] .page-header h2>* {
     height: 400px;
     border-radius: var(--circle-radius, 50%);
     clip-path: var(--clip-shape, none);
-    background-color: var(--page-panel, #f0f0f0);
+    background-color: transparent;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -2036,7 +2036,8 @@ body[data-theme="sinais"] {
 }
 
 body[data-theme="sinais"] .doc-page {
-    background-color: var(--page-bg);
+    background-color: #020a05;
+    background: radial-gradient(circle at 60% 50%, #031109 0%, #010604 70%, #0d0106 100%);
     overflow: hidden;
 }
 
